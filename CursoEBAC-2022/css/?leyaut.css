@@ -1,0 +1,230 @@
+* {
+    box-sizing: border-box;
+  }
+
+ html{
+  margin: 0;
+  padding: 0;
+  font-size: 62.5%;  /*equivalente a 10px*/
+  }
+
+body {
+  background-color: white;
+ } 
+
+ footer {
+   color: blue;
+   font-size: 1.2rem;
+ }
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  font-size: 1.8rem;
+}
+h1, h2, p, li {
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+a {
+  color: red; /*cor das perguntas no  link do formulario ex: Qual linguagem você prefere*/
+  text-decoration: none; /*para tirar os sublinhado dos links*/
+  /* font-size: 14px; Mudar fonte das letras ex 12px, 15px */
+}
+
+form  {
+  background: #eee;
+  padding: 10px;
+}
+
+form div {
+  background: #fff;
+  border-bottom: 1px solid white;
+  margin: 1rem;
+  padding: 2rem;
+}
+
+label {
+  margin-bottom: 1rem;
+  font-size: 1.4rem;            /*mudar o negrito nos temas do formalario tamanho de letra cor*/
+  font-family: sans-serif;
+  color: rgb(236, 238, 248);
+}
+
+input {
+  padding: 1rem;
+
+}
+[type="text"], [type="email"], textarea, label {
+  display: block;  
+  width: 100%;                              /*Display block é usado para quebrar as linhas*/
+  margin-bottom: 2px;
+}
+
+header {
+  background-color: rgb(37, 34, 34);
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+nav {
+  float: left;
+  width: 30%;
+  padding:20px
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+}
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer {
+  background-color: blueviolet;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+
+} 
+
+/*
+  body {
+    font-family: 'Times New Roman', Times, serif, Helvetica, sans-serif; 
+  } 
+ tipo de letra*/
+  
+   /*Tipo de cor do corpo da nossa homepage*/
+ 
+
+   /*cor dos textos */
+
+
+
+  /*cor do link minhas atividades e minhas redes socias */
+
+/*
+    #primeiro-link a {      destacar o primeiro link da nossa homepage MINHAS ATIVIDADES
+      color: rgb(192, 74, 98);
+    }
+*/
+/*
+    ul {
+      background-color: rgb(248, 248, 250); Cor da barra de navegação Minhas atividades
+      font-size: 10px;
+    }
+*/
+/*
+.navegacao {
+  background-color: rgb(2, 2, 19);
+}
+*/
+
+
+     /*background: #fff;
+      border: 1px dashed #999;
+      margin: 10px 10px 10px 10px; 
+      padding: 10px;*/
+
+    
+
+    
+/*
+    p {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; fonte da letra
+    }
+*/
+
+/*
+    ul li {
+      font-size: 0.9em; equivale a 16px
+      width: 100%;
+    }
+*/
+ /*   
+p {
+      font-size: 1.6rem; tamanho de letra que equivale a 16px
+    }
+    */
+/*
+    a {
+      color: rgb(116, 31, 5); cor das perguntas no  link do formulario ex: Qual linguagem você prefere
+      text-decoration: none; /*para tirar os sublinhado dos links
+      font-size: 14px;  Mudar fonte das letras ex 12px, 15px 
+    }
+    */
+  
+  
+  
+  
+
+  
+
+  /*
+    
+    background: rgb(148, 148, 98); /*cor do fundo do navegador localizado em minhas atividades
+    padding: 20px;
+  */
+  
+  
+ 
+
+  
+     
+  /*POSICIONAMENTO DE ELEMENTOS AULA 5
+  top/ superior (para de cima do nosso Layout
+    bottom / inferior ( parte de baixo do layout
+    left(esquerda)
+    right / direita*/
+/*
+    form div {
+     top: 10%;    colocar linha nos texto do nosso formalario
+    }
+/*
+    label {
+      margin-top: -10px;
+      color: rgb(6, 6, 7); Pintar a titulos do formulario ex; nome, email, e outros
+    }
+*/
+    /*  li a {
+      color: rgb(17, 14, 14); /*mudar as cores do links no formulario home, sobre, contato
+      font-size: 25px; 
+    }                      mudar o tamanho da letra dos links Home, Sobre, Contato*/
+   
+/*
+    h1 {
+      font-size: 25px;
+      color: black;
+      font-family: 'Times New Roman', Times, serif;
+    }
+    */
+
+    /* 
+    div label {
+      display: block;
+      margin-bottom: 2px;
+    }
+     nav a:hover {
+      color: rgb(52, 100, 33);
+    }*/
+  
+    
+
+
+    
